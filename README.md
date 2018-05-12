@@ -6,7 +6,7 @@ SiteDigest is a website analysis command line tool, it designed to provide the b
 SiteDigest while establishing connection prints informations such as encountered redirections or return code. 
 Once when content is returned, SD does DOM search to extract a basic information about the website.
 SiteDigest can be used to check over all server and site health, website setup or for do SEO analysis.
-SD is not meant to render the page, also it does not requests for a linked resources - pictures, CSS, JavaScript.
+SD is not designed to render the page, or crawl to linked pages or resources.
 
 $ sitedigest teafs.org
 Sat May 12 2018 23:15:00 GMT+0200 (CEST): rewriting "teafs.org" to: http://teafs.org/
