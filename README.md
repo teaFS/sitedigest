@@ -1,10 +1,12 @@
 # sitedigest
-Website analysis tool
+### Website analysis tool
 
-SiteDigest is a website analysis command line tool, it designed to provide the basic information about the website and hosting enviroment.
+SiteDigest is a command line swiss army knife to draw information about websites and hosting enviroment.
 
-SiteDigest while establishing connection prints informations such as encountered redirections or return code. 
-Once when content is returned, SD does DOM search to extract a basic information about the website.
+It checks: 
+* server's responce - encountered redirections and return codes.
+* returned content - DOM search to extract a basic information about the website.
+
 SiteDigest can be used to check over all server and site health, website setup or for do SEO analysis.
 SD is not designed to render the page, or crawl to linked pages or resources.
 
