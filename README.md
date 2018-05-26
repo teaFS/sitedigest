@@ -4,11 +4,12 @@
 SiteDigest is a command line swiss army knife to draw information about websites and hosting enviroment.
 
 It checks: 
-* server's responce - encountered redirections and return codes.
-* returned content - DOM search to extract a basic information about the website.
+* DNS responce
+* Web server responce - encountered redirections and return codes.
+* Returned content - extracts a basic information about the website.
 
-SiteDigest can be used to check over all server and site health, website setup or for do SEO analysis.
-SD is not designed to render the page, or crawl to linked pages or resources.
+SiteDigest can be used to check an overall server and a site health, website setup or for SEO analysis.
+SD is not designed to render the page, nor to crawl to a linked pages or resources.
 
 ```
 $ sitedigest teafs.org
